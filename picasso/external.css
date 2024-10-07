@@ -1,0 +1,48 @@
+.mb-3{ 
+    width: 70%;
+    margin: 10vh auto!important;}
+
+@media screen and (max-height: 800px) {
+   
+}
+@media screen and (min-height: 100px) {
+    
+}
+body{ background-image: url("download.jpeg");
+ background-repeat: no-repeat;
+background-size: cover !important;
+}
+
+
+img{
+  position: absolute;
+   width:60%;
+   top: 150px;
+   left: 25px
+   
+}
+.imgOne{
+    z-index: 1;
+    height: 110px;
+
+}
+.imgTwo{
+    z-index: -1;
+}
+
+
+.divparent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+div {
+    height: 100px;
+   
+    
+}
+.red{
+background-color: crimson;
+width: 25%;
+}
+
